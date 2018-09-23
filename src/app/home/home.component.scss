@@ -8,7 +8,10 @@ mdb-card-body {
   height: 85%;
   border-radius: 2%;
 }
+
+$icon-colors: #3560f7;
+
 mdb-icon,
 .icolor {
-  color: #3560f7;
+  color: $icon-colors;
 }
