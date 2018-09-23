@@ -3,7 +3,7 @@ import { Routes, RouterModule } from "@angular/router";
 import { HomeComponent } from "./home/home.component";
 import { HeaderComponent } from "./shared/header/header.component";
 import { FooterComponent } from "./shared/footer/footer.component";
-import { ExitComponent } from "./shared/exit/exit.component";
+import { BlogComponent } from "./blog/blog.component";
 
 const routes: Routes = [
   {
@@ -11,8 +11,8 @@ const routes: Routes = [
     component: HomeComponent
   },
   {
-    path: "exit",
-    component: ExitComponent
+    path: "blog",
+    component: BlogComponent
   },
   {
     path: "header",
@@ -31,7 +31,7 @@ const routes: Routes = [
 export class AppRoutingModule {}
 export const routingComponents = [
   HomeComponent,
-  ExitComponent,
+  BlogComponent,
   HeaderComponent,
   FooterComponent
 ];

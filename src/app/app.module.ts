@@ -6,9 +6,10 @@ import { HeaderComponent } from "./shared/header/header.component";
 
 import { AppRoutingModule, routingComponents } from "./app-routing.module";
 import { ExitComponent } from "./shared/exit/exit.component";
+import { BlogComponent } from './blog/blog/blog.component';
 
 @NgModule({
-  declarations: [AppComponent, routingComponents, ExitComponent],
+  declarations: [AppComponent, routingComponents, ExitComponent, BlogComponent],
   imports: [MDBBootstrapModule.forRoot(), BrowserModule, AppRoutingModule],
   schemas: [NO_ERRORS_SCHEMA],
 
