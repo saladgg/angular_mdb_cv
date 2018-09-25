@@ -1,8 +1,18 @@
 mdb-card-body {
   text-align: left;
+  .imgBlog {
+    height: 300px;
+    width: 100%;
+  }
+}
+// unimplemented
+%header-style1 {
+  font-style: italic;
 }
 
-.imgBlog {
-  height: 300px;
-  width: 100%;
+%header-style2 {
+  color: #3560f7;
+}
+h3 {
+  @extend %header-style2;
 }
